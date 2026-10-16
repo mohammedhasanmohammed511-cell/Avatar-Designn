@@ -1,0 +1,79 @@
+
+*{
+    padding: 0;
+    margin: 0;
+     font-family: "Lobster Two", sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right , #01022d , #000000);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+     background-image: linear-gradient(to right , #01022d 25%, #00000084), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStlfdSbdqsLzlq6aDRh25gWqJtynNYvk_jTZM0WJrzkg&s=10);
+         background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+width: 90%;
+height: 640px;
+}
+.container:hover{
+         background-image: linear-gradient(to right , #01022d 25%,transparent), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStlfdSbdqsLzlq6aDRh25gWqJtynNYvk_jTZM0WJrzkg&s=10);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+}
+nav ul li a:hover{
+     border-bottom: 3px solid #fff;
+}
+.content{
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+    color: #fff;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 3px;
+    width: 350px;
+    padding: 20px 0;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+        border-bottom: 2px solid transparent;
+
+}
+.content button:hover{
+background-color: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    cursor: pointer;
+
+}
